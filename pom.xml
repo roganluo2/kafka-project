@@ -11,6 +11,8 @@
     <modules>
         <module>kafka-producer</module>
         <module>kafka-consumer</module>
+        <module>springboot-producer</module>
+        <module>springboot-consumer</module>
     </modules>
 
 
