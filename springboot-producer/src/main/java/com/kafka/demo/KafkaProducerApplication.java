@@ -11,7 +11,7 @@ public class KafkaProducerApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(KafkaProducerApplication.class, args);
-        ProducerComponent bean = run.getBean(ProducerComponent.class);
+       /* ProducerComponent bean = run.getBean(ProducerComponent.class);
         for(int i = 0; i< 10; i++ )
         {
             bean.sendMsg();
@@ -20,7 +20,7 @@ public class KafkaProducerApplication {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        }
+        }*/
 
     }
 }
